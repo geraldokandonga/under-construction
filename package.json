@@ -1,6 +1,7 @@
 {
     "name": "under-construction",
     "version": "0.1.0",
+    "homepage": "https://citystriders.com",
     "private": true,
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^6.1.1",
