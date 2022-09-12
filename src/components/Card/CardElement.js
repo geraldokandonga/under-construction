@@ -20,7 +20,7 @@ export const CardContainer = styled.article`
   }
 
   @media (max-width: 56.25em) {
-    margin-top: 1.2rem;
+    margin-top: 0.8rem;
   }
 `;
 

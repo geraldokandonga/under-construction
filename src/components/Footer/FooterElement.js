@@ -16,7 +16,7 @@ export const FooterWrapper = styled.div`
 export const FooterContent = styled.div`
   position: relative;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 
   @media (max-width: 56.25em) {
@@ -26,24 +26,46 @@ export const FooterContent = styled.div`
 
 export const ImageContainer = styled.div`
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 `;
 
 export const Image = styled.img`
   width: 100%;
+  border-radius: 10px;
+`;
+
+export const TextContainer = styled.div`
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+
+  @media (max-width: 56.25em) {
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export const TitleText = styled.h2`
   font-family: "Open Sans";
   font-style: normal;
-  font-weight: 400;
-  font-size: 2.8125rem;
+  font-weight: 600;
+  font-size: 3rem;
   color: #283472;
   text-align: center;
 
   @media (max-width: 56.25em) {
-    font-size: 1.6875rem;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+  }
+`;
+
+export const Text = styled.p`
+  font-style: normal;
+  font-size: 1.1rem;
+  color: #000;
+  line-height: 1.6;
+
+  @media (max-width: 56.25em) {
+    font-size: 1rem;
   }
 `;

@@ -5,14 +5,26 @@ import Img3 from "../../assets/images/card/card-img-3.jpg";
 
 import Card from "../Card";
 
-import { GalleryContainer } from "./GalleryElement";
+import {
+  GalleryContainer,
+  GalleryContent,
+  GalleryWrapper,
+} from "./GalleryElement";
 
 const GalleryView = (props) => {
   return (
     <GalleryContainer>
-      <Card image={Img1} />
-      <Card image={Img3} />
-      <Card image={Img2} />
+      <GalleryContent>
+        <GalleryWrapper>
+          <Card image={Img1} />
+        </GalleryWrapper>
+        <GalleryWrapper>
+          <Card image={Img3} />
+        </GalleryWrapper>
+        <GalleryWrapper>
+          <Card image={Img2} />
+        </GalleryWrapper>
+      </GalleryContent>
     </GalleryContainer>
   );
 };
