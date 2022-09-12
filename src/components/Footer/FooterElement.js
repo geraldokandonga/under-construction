@@ -26,6 +26,12 @@ export const FooterContent = styled.div`
 
 export const ImageContainer = styled.div`
   position: relative;
+  padding: 2px;
+  border-radius: 10px;
+
+  &:hover {
+    box-shadow: 0 1px 35px 0 rgba(0, 0, 0, 0.3);
+  }
 `;
 
 export const Image = styled.img`
