@@ -1,11 +1,13 @@
 import React from "react";
 
-import { CardContainer, CardImage } from "./CardElement";
+import { CardContainer, CardContent, CardImage } from "./CardElement";
 
 const Card = (props) => {
   return (
     <CardContainer>
-      <CardImage src={props.image} />
+      <CardContent>
+        <CardImage src={props.image} />
+      </CardContent>
     </CardContainer>
   );
 };

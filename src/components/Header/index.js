@@ -20,7 +20,7 @@ const HeaderView = () => {
           </ImageContainer>
         </HeaderWrapper>
         <HeaderWrapper>
-          <TitleText>City Striders</TitleText>
+          <TitleText>City Striders Club</TitleText>
         </HeaderWrapper>
         <HeaderWrapper>
           <ImageContainer>

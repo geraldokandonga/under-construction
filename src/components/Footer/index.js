@@ -1,5 +1,6 @@
 import React from "react";
-import UCImage from "../../assets/images/under-construction.png";
+import emoji from "emoji-dictionary";
+
 import CookingGif from "../../assets/images/cooking-gif.gif";
 import {
   FooterContainer,
@@ -13,6 +14,8 @@ import {
 } from "./FooterElement";
 
 const FooterView = () => {
+  const fire = emoji.getUnicode("fire");
+
   return (
     <FooterContainer>
       <FooterContent>
@@ -23,10 +26,10 @@ const FooterView = () => {
         </FooterWrapper>
         <FooterWrapper>
           <TextContainer>
-            <TitleText>Website still COOKING ...</TitleText>
+            <TitleText> 👨‍🍳 Website still COOKING 👨‍🍳</TitleText>
             <Text>We're quickly busy cooking this website!</Text>
-            <Text>It's exciting right here in the kitchen</Text>
-            <Text>Please visit back later. The food is still hot!</Text>
+            <Text>It's exciting right here in the kitchen.</Text>
+            <Text>Please visit back later. The food is still hot {fire}</Text>
           </TextContainer>
         </FooterWrapper>
       </FooterContent>

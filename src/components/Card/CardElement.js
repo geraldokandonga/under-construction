@@ -47,7 +47,7 @@ export const CardMedia = styled.div`
 `;
 
 export const CardContent = styled.div`
-  padding: 12px 8px;
+  padding: 0.75rem 0.5rem;
   color: #999999;
   transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
 `;
