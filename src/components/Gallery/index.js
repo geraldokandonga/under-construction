@@ -1,7 +1,7 @@
 import React from "react";
-import Img1 from "../../assets/images/card/card-img-1.JPG";
-import Img2 from "../../assets/images/card/card-img-2.JPG";
-import Img3 from "../../assets/images/card/card-img-3.jpg";
+import Img1 from "../../assets/images/card/card-img-1.png";
+import Img2 from "../../assets/images/card/card-img-2.png";
+import Img3 from "../../assets/images/card/card-img-3.png";
 
 import Card from "../Card";
 
